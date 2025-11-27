@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartBot v2 - Animated Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Chat Header -->
+    <header class="chat-header">
+      <h1>🤖 SmartBot v2</h1>
+      <div class="header-buttons">
+        <button id="about">About</button>
+        <button id="export">Export</button>
+        <button id="clear">Clear</button>
+      </div>
+    </header>
+
+    <!-- Chat Box -->
+    <main class="chat-box" id="chat-box">
+      <div class="bot message animated-entry">
+        <p>Hello! I'm <b>SmartBot v2</b>. How can I assist you today?</p>
+      </div>
+    </main>
+
+    <!-- Chat Input -->
+    <footer class="chat-input">
+      <input
+        type="text"
+        id="message"
+        placeholder="Type your message..."
+        autocomplete="off"
+      />
+      <button id="send">Send</button>
+    </footer>
+  </div>
+
+  <!-- About Modal -->
+  <div id="aboutModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeAbout">&times;</span>
+      <h2>About SmartBot v2</h2>
+      <p>
+        SmartBot v2 is a fully interactive rule-based chatbot created using
+        <b>HTML, CSS, and JavaScript</b>. It responds to your inputs using
+        pattern matching logic (if-else rules) and offers a smooth,
+        animated, vertical chat interface.
+      </p>
+      <p>
+        ✨ Features include:
+        <ul>
+          <li>Animated chat bubbles</li>
+          <li>Auto scroll and fade-out effects</li>
+          <li>Export chat as a text file</li>
+          <li>Mobile-style vertical interface (9:16)</li>
+          <li>Colorful input field and neon effects</li>
+        </ul>
+      </p>
+      <p class="credits">Developed with ❤️ as a web-based chatbot demo.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
