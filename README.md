@@ -108,11 +108,3 @@ Your chatbot will go live online 🌐
 Developed as a simple, modern web-based chatbot demo using **HTML, CSS, and JavaScript**.
 
 ---
-
-If you want, I can also generate:  
-✅ README with badges  
-✅ README with GIF preview  
-✅ README with project logo  
-✅ README with dark/light theme  
-
-Just tell me!
